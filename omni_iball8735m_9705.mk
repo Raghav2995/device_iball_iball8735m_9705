@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from iball8735m_9705 device
-$(call inherit-product, device/iball slide/iball8735m_9705/device.mk)
+$(call inherit-product, device/iball/iball8735m_9705/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)

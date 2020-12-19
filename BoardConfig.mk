@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/iball slide/iball8735m_9705
+DEVICE_PATH := device/iball/iball8735m_9705
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -65,7 +65,7 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/iball slide/iball8735m_9705
+TARGET_KERNEL_SOURCE := kernel/iball/iball8735m_9705
 TARGET_KERNEL_CONFIG := iball8735m_9705_defconfig
 
 # Ramdisk compression

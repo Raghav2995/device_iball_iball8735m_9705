@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/iball slide/iball8735m_9705
+LOCAL_PATH := device/iball/iball8735m_9705
 
